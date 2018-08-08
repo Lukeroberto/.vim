@@ -1,29 +1,3 @@
-set number 
-set colorcolumn=90
-
-" Keep more info in memory
-set hidden
-set history=100
-
-" Indenting Logic
-filetype indent on
-set nowrap
-set autoindent
-set smartindent
-set expandtab
-
-" No more arrow keys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
-" Highlight search 
-set hlsearch
-
-" Highlight matching parenths
-set showmatch
-
 " Vundle Stuff
 " -------------------------------------------------------------------
 set nocompatible              " be iMproved, required
@@ -43,7 +17,34 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " ------------------------------------------------------------------
 
+set number 
+set colorcolumn=90
+
+" Keep more info in memory
+set hidden
+set history=100
+
+" Indenting Logic
+filetype indent on
+set nowrap
+set autoindent
+set smartindent
+set expandtab
+
+" No more arrow keys
+nnoremap  <Up>     <NOP>
+nnoremap  <Down>   <NOP>
+nnoremap  <Left>   <NOP>
+nnoremap  <Right>  <NOP>
+
+" Highlight search 
+set hlsearch
+nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+
+" Highlight matching parenths
+set showmatch
+
 " Gruvbox
 let g:gruvbox_italic=1
 colorscheme gruvbox
-set background=dark " Setting Dark mode
+set background=dark" Setting Dark mode
