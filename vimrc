@@ -30,16 +30,18 @@ set nowrap
 set autoindent
 set smartindent
 set expandtab
+set tabstop=4
+set shiftwidth=4
 
-" No more arrow keys
+" Key maps
 nnoremap  <Up>     <NOP>
 nnoremap  <Down>   <NOP>
 nnoremap  <Left>   <NOP>
 nnoremap  <Right>  <NOP>
+nmap <F5> <Esc>:w<CR>:!clear;python %<CR>
 
 " Highlight search 
 set hlsearch
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
 " Highlight matching parenths
 set showmatch
