@@ -38,6 +38,8 @@ nnoremap  <Up>     <NOP>
 nnoremap  <Down>   <NOP>
 nnoremap  <Left>   <NOP>
 nnoremap  <Right>  <NOP>
+
+" Maps F5 to run python file from normal mode
 nmap <F5> <Esc>:w<CR>:!clear;python %<CR>
 
 " Highlight search 
@@ -50,3 +52,6 @@ set showmatch
 let g:gruvbox_italic=1
 colorscheme gruvbox
 set background=dark" Setting Dark mode
+
+" Clipboard support
+set clipboard=unnamed
