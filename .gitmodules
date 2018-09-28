@@ -7,3 +7,6 @@
 [submodule "bundle/gruvbox"]
 	path = bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "bundle/vimtex"]
+	path = bundle/vimtex
+	url = https://github.com/lervag/vimtex.git
