@@ -56,3 +56,7 @@ set background=dark" Setting Dark mode
 
 " Clipboard support
 set clipboard=unnamed
+
+
+" Will default to tex as filetype now
+let g:tex_flavor = 'tex'
