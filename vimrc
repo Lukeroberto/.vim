@@ -60,3 +60,6 @@ set clipboard=unnamed
 
 " Will default to tex as filetype now
 let g:tex_flavor = 'tex'
+
+set cursorcolumn
+set cursorline
