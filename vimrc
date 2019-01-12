@@ -12,6 +12,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'lervag/vimtex'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'itchyny/lightline.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -63,3 +67,9 @@ let g:tex_flavor = 'tex'
 
 set cursorcolumn
 set cursorline
+
+" For light line
+set laststatus=2
+let g:lightline = {
+    \ 'colorscheme': 'seoul256',
+    \ }

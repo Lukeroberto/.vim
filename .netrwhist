@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/luke/Downloads/mujoco-py'
-let g:netrw_dirhist_2='/home/luke/research/openrave'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/luke/research/symbolic_dl/scripts'
+let g:netrw_dirhist_2='/home/luke/research/symbolic_dl/scripts/abstract'
+let g:netrw_dirhist_3='/home/luke/research/symbolic_dl/scripts/abstract/stairs_n'
+let g:netrw_dirhist_4='/home/luke/research/symbolic_dl/scripts/abstract/stairs_n/dqn_dataset'
+let g:netrw_dirhist_5='/home/luke/research/fully_conv_robotic_rl/utils'
