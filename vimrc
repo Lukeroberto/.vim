@@ -47,6 +47,9 @@ nnoremap  <Right>  <NOP>
 " Maps F5 to run python file from normal mode
 nmap <F5> <Esc>:w<CR>:!clear;python %<CR>
 
+" Maps ctrl-t to NERDTreeToggle
+map <C-t> :NERDTreeToggle<Enter>
+
 " Highlight search 
 set hlsearch
 
