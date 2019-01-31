@@ -80,6 +80,3 @@ let g:lightline = {
 " Backup directory for swp files
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
-
-" Automatically reload files
-set autoread
