@@ -23,7 +23,7 @@ filetype plugin indent on    " required
 " ------------------------------------------------------------------
 
 set number 
-set colorcolumn= 88
+set colorcolumn=88 
 
 " Keep more info in memory
 set hidden
@@ -80,3 +80,6 @@ let g:lightline = {
 " Backup directory for swp files
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
+
+" Vim autoread
+set autoread
