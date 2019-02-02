@@ -83,3 +83,6 @@ set directory=~/.vim/backup/
 
 " Vim autoread
 set autoread
+
+" Make it easier to move through buffers
+map <C-b> :bn<Enter>
