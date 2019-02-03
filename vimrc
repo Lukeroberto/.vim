@@ -86,3 +86,7 @@ set autoread
 
 " Make it easier to move through buffers
 map <C-b> :bn<Enter>
+
+" Completion in vim
+set wildmode=longest,list,full
+set wildmenu
